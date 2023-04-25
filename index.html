@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="core.css">
+	<title>Gender Selecter University - Sign Up</title>
+</head>
+<body>
+<form action="GET">
+	<fieldset>
+		<legend>Sign Up</legend>
+		<div>
+			<label for="name">Name</label>
+			<input type="text" id="name">
+		</div>
+		<div>
+			<label for="email">Email</label>
+			<input type="email" id="email">
+		</div>
+		<fieldset>
+			<legend>Gender</legend>
+			<label for="level">Level</label>
+			<select name="level" id="level">
+				<option value="1">Beginner</option>
+				<option value="2">Intermediate</option>
+				<option value="3">Advanced</option>
+				<option value="4">Expert</option>
+				<option value="5">Hardcore</option>
+				<option value="6">Elevated</option>
+			</select>
+			<div id="beginner">
+				<div>
+					<label><input type="radio" name="beginner" id="man"> Man</label>
+				</div>
+				<div>
+					<label><input type="radio" name="beginner" id="woman"> Woman</label>
+				</div>
+				<div>
+					<label><input type="radio" name="beginner" id="non-binary"> Non-Binary</label>
+				</div>
+			</div>
+			<div>
+				Masculine <input type="range" name="masc-femme" id="masc-femme"> Feminine
+			</div>
+			<div>
+				Agender <input type="range" name="a-hyper" id="a-hyper"> Hypergender
+			</div>
+			<div>
+				Hypomasculine <input type="range" name="hypo-hyper-masc" id="hypo-hyper-masc"> Hypermasculine
+			</div>
+			<div>
+				Hypofeminine <input type="range" name="hypo-hyper-femme" id="hypo-hyper-femme"> Hyperfeminine
+			</div>
+			<div>
+				Gendersolid <input type="range" name="solid-fluid" id="solid-fluid"> Genderfluid
+			</div>
+			<div>
+				Cis <input type="range" name="cis-trans" id="cis-trans"> Trans
+			</div>
+			<div>
+				Queer <input type="range" name="queer-normative" id="queer-normative"> Normative
+			</div>
+		</fieldset>
+		<button>Submit</button>
+	</fieldset>
+</form>
+</body>
+</html>

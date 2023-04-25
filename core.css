@@ -1,0 +1,12 @@
+body {
+	margin: 10vh auto;
+	max-width: 40em;
+	font-family: monospace;
+	background: #EDEDED;
+}
+
+:has(>input[type="range"]) {
+	display: grid;
+	grid-template-columns: .5fr 1fr .5fr;
+	column-gap: .5em;
+}
